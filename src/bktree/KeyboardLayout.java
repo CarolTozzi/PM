@@ -1,0 +1,16 @@
+package bktree;
+
+public class KeyboardLayout {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	public void prepareDistances() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

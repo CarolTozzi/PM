@@ -1,0 +1,33 @@
+Maven não adiciona
+
+layout na estrutura
+
+mudar a busca, como fazer? O que é cada parâmetro passado? - search basico do codigo
+
+classes de layout, o que cada uma faz?
+
+por que o calculator vai pra dictionary reader?
+
+#to do
+
+mudar o levenshtein
+criar o demerau
+criar layouts
+mudar a leitura do zip
+mudar a busca
+
+keyboard.xml -> lista de keyboard layout - calcular distancia entre as letras
+reader - le o xml e retorna a lista
+neutro - volta 1 para tudo, nao tem distancia entre as teclas
+
+letra trocada = distancia 1 unidade Ex q-w
+para o q-a tem q calcular o triangulo retangulo pois esta na diagonal
+
+maior distancia = maximo (q-p) e calcular proporção pro resto
+adicao ou remoção = 0.25
+troca de letras na transposição  - proporção de distancia entre as letras
+
+double calcula (string, string) --> calcula a distancia e devolve double pq usaremos na distancia do teclado. 
+uma pro leveinstein e uma pro damereu
+cria-se um Icalculadorque usa essas duas classes
+mudar o calculator pra só definir os calculos ao inves de criar a arvore
